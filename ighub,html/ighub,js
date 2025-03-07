@@ -1,0 +1,23 @@
+function signup() {
+ letusername=
+document.getElementById("signup-username").value;
+
+ letemail=
+document.getElementById
+("signup-email").value;
+letphone=
+document.getElementById("signup-phone").value;
+letpassword=
+document.getElementById("signup-phone").value;
+letpassword=
+document.getElementById("signup-password").value;
+if(username===""||email===""||pphone===""||password===""){
+    alert("please fill in all fields");return;
+}
+
+localStorage.setitem("email".email);
+localStorage.setitem("password".passwordword);
+ "sign-up successful!
+Redirecting to login page)
+}
+
